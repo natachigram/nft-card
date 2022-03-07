@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0e071b;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 19rem;
+  height: 24rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.card .card-img {
+  flex: 0.5;
+  height: 100%;
+  background-image: url('https://i.guim.co.uk/img/media/ef8492feb3715ed4de705727d9f513c168a8b196/37_0_1125_675/master/1125.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=7ce91813e22e1ca59b2723833dffa49f');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card .card-textContent {
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 0.5rem;
+}
+
+.card .card-textContent h3 {
+  font-weight: 600;
+}
+
+.card .card-textContent .card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #bea9e9;
+  color: #1e1136;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.card .card-textContent .card-info .bid-info {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card .card-textContent .card-info .bid-info > p {
+  font-size: 12px;
+  margin-bottom: 0.4rem;
+}
+
+.card .card-textContent .card-info .bid-info > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card .card-textContent .card-info .bid-info div img {
+  width: 20px;
+  background-color: #1e1136;
+  border-radius: 50%;
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.card .card-textContent .card-info .bid-info div p {
+  margin-right: 1rem;
+}
+
+.card .card-textContent .card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .card-textContent .card-btn button {
+  flex: 0.49;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 600;
+  background-color: #fff;
+  color: #1e1136;
+  cursor: pointer;
+  width: 100%;
+  border: 2px solid #1e1136;
+  transition: 0.3s ease-in;
+}
+
+.card .card-textContent .card-btn button:hover {
+  border: 2px solid #1e1136;
+  background-color: #1e1136;
+  color: #fff;
+}
+
+.card .card-textContent .card-btn button:focus {
+  border: 2px solid #1e1136;
+  background-color: #1e1136;
+  color: #fff;
+}
+/* .card .card-textContent .card-btn .secondary {
+  background-color: #fff;
+  color: #1e1136;
+  transition: 0.3s ease-in;
+  border: 2px solid #fff;
+}
+
+.card .card-textContent .card-btn .secondary:hover {
+  background-color: #1e1136;
+  color: #fff;
+  font-weight: 600;
+} */
